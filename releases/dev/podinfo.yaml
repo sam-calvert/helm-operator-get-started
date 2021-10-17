@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: public.ecr.aws/y5n2l7b6/fluxcd_capacitor
-      tag: dev-hdtwcel9
+      tag: dev-
     replicaCount: 1
     hpa:
       enabled: false
