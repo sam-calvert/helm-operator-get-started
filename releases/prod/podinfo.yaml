@@ -10,11 +10,11 @@ metadata:
 spec:
   releaseName: podinfo-prod
   chart:
-    git: git@github.com:fluxcd/helm-operator-get-started
+    git: git@github.com:sam-calvert/helm-operator-get-started.git
     path: charts/podinfo
     ref: master
   values:
     image:
-      repository: stefanprodan/podinfo
+      repository: public.ecr.aws/y5n2l7b6/fluxcd_capacitor 
       tag: 0.4.11
     replicaCount: 3
